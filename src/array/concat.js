@@ -27,4 +27,7 @@ function arrayPush(array, values) {
   return array;
 }
 
-concat([1], 2, [3], [[4]]);
+let res1 = concat([1], 2, [3], [[4]]);
+// [1, 2, 3, [4]]
+
+console.log(res1);

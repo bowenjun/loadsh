@@ -14,5 +14,7 @@ function compact(array) {
   return result;
 }
 
-compact([0, 1, false, 2, '', 3]);
+let res1 = compact([0, 1, false, 2, '', 3]);
 // => [1, 2, 3]
+
+console.log(res1);

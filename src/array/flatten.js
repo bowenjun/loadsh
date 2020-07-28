@@ -32,5 +32,7 @@ function arrayPush(array, values) {
   return array;
 }
 
-flatten([1, [2], [3, [4]]], 1)
+let res1 = flatten([1, [2], [3, [4]]], 1);
 // [1, 2, 3, [4]]
+
+console.log(res1);

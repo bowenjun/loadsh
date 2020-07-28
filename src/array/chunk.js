@@ -17,8 +17,10 @@ function chunk(array, size) {
   return result;
 }
 
-chunk(['a', 'b', 'c', 'd'], 2);
+let res1 = chunk(['a', 'b', 'c', 'd'], 2);
 // => [['a', 'b'], ['c', 'd']]
  
-chunk(['a', 'b', 'c', 'd'], 3);
+let res2 = chunk(['a', 'b', 'c', 'd'], 3);
 // => [['a', 'b', 'c'], ['d']]
+
+console.log(res1, res2);
