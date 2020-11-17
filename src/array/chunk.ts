@@ -17,10 +17,4 @@ function chunk(array, size) {
   return result;
 }
 
-let res1 = chunk(['a', 'b', 'c', 'd'], 2);
-// => [['a', 'b'], ['c', 'd']]
- 
-let res2 = chunk(['a', 'b', 'c', 'd'], 3);
-// => [['a', 'b', 'c'], ['d']]
-
-console.log(res1, res2);
+module.exports = chunk;

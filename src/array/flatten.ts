@@ -32,7 +32,4 @@ function arrayPush(array, values) {
   return array;
 }
 
-let res1 = flatten([1, [2], [3, [4]]], 1);
-// [1, 2, 3, [4]]
-
-console.log(res1);
+module.exports = flatten;

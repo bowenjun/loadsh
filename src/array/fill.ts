@@ -24,7 +24,4 @@ function fill(array, value, start = 0, end) {
   return array;
 }
 
-let res = fill([4, 6, 8, 10], '*', 1, 3);
-// => [4, '*', '*', 10]
-
-console.log(res);
+module.exports = fill;
